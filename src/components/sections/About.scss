@@ -1,0 +1,28 @@
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  flex-direction: column;
+  height: 100vh;
+
+  .img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+  }
+
+  .name {
+    font-size: 3em;
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  .MuiButtonBase-root:hover {
+    //background-color: rgba(255, 255, 255, 0.2);
+  }
+}

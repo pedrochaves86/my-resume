@@ -1,0 +1,13 @@
+.cursor {
+  animation: blink 1000ms infinite;
+  opacity: 1;
+
+  @keyframes blink {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+}
